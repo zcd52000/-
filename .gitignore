@@ -1,0 +1,52 @@
+# 绝对不要提交敏感私钥与凭证
+.env
+*.env
+private_key*
+credentials*
+
+# 忽略临时数据与本地状态
+/dev/shm/*
+*.json
+*.csv
+*.log
+*.tmp
+
+# Python 编译缓存
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.vscode/
+.idea/
+
+# 用户家目录敏感文件
+.ssh/
+.bash_history
+.bashrc
+.zshrc
+.profile
+.config/
+.local/
+.cache/
+.npm/
+.dotnet/
+.cargo/
+.rustup/
+.pm2/
+.hermes/
+.copilot/
+.vscode-server/
+.lesshst
+.wget-hsts
+.brier_audit_prev_count
+
+# 临时输出文件
+bidirectional_sniper.out
+clob_sniper*.out
+closest_market_sniper.out
+market_sniper_v4.out
+*_bak.csv
+slippage_survey.jsonl
+
+# 笔记
+dev_notes*.md
